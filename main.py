@@ -16,7 +16,7 @@ for animal in animals:
     pdf.cell(w=0, h=12, txt=animal_name, align='L',
              ln=1, border=0)
     pdf.set_font(size=10, family='Times' )
-    pdf.write(h=5, txt=description)
+    pdf.multi_cell(w=0, h=5, txt=description)
     #pdf.cell(w=0, h=12, txt=description, align='L',
              #ln=1, border=0)
 
